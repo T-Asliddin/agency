@@ -1,0 +1,73 @@
+.team{
+    margin-bottom: 158px;
+}
+
+.team__list{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
+
+.team__title{
+    color: #222;
+font-size: 25px;
+font-weight: 600;
+line-height: 180.5%;
+margin-bottom: 553px;
+ }
+
+ .team__item{
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    background-image: url(../img/Bill\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 86px 35px;
+    text-align: center;
+    padding: 158px 95px 30px 95px;
+    
+
+    &:nth-child(2){
+        background-image: url(../img/Beverly\ 1.png);
+        background-repeat: no-repeat;
+        background-position: 86px 35px;
+        text-align: center;
+        padding: 158px 95px 30px 95px;
+    }
+
+    &:nth-child(3){
+        background-image: url(../img/Claudia\ 1.png);
+        background-repeat: no-repeat;
+        background-position: 86px 35px;
+        text-align: center;
+        padding: 158px 95px 30px 95px;
+    }
+
+    &:nth-child(4){
+        background-image: url(../img/Avatar\ 1.png);
+        background-repeat: no-repeat;
+        background-position: 86px 35px;
+        text-align: center;
+        padding: 158px 95px 30px 95px;
+    }
+}
+
+.team__item_title{
+    color: #000;
+font-size: 19px;
+font-weight: 600;
+line-height: 202.5%; 
+}
+
+.team__item_text{
+    color: #8B8B8B;
+font-size: 16px;
+font-weight: 300;
+line-height: 202.5%; 
+}
+
+
+
+@media screen and(max-width:1250px) {
+    .team__list{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}
