@@ -1,0 +1,128 @@
+.footer{
+    background-color: #1B1B1B;
+    padding: 60px 130px 30px 100px;
+    display: flex;
+}
+
+.footer__box_text{
+    max-width: 325px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+
+.footer__box_link{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+}
+
+.footer__logo_box{
+    margin-bottom: 27px;
+}
+
+.footer__about{
+    margin-left: 78px;
+}
+
+
+.footer__about_link{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 186.3%;
+display: block;
+}
+
+.footer__about_title{
+    color: #FFF;
+font-size: 17px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+.footer__contact{
+    margin-left: 144px;
+}
+
+.footer__contact_title{
+    color: #FFF;
+font-size: 17px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+.footer__contact_text{
+    max-width: 246px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 11px;
+}
+
+.footer__contact_tel{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+}
+
+.footer__icon{
+    width:190px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-image: url(../img/facebook.svg), url(../img/instagram.svg) ,url(../img/twitter.svg) , url(../img/linkedin1.svg);
+    background-position: left center, 45px center, 90px center , 135px center;
+    margin-top: 100px;
+    margin-left: 83px;
+}
+
+.footer__line{
+    height: 1px;
+    background-color: #D2D2D2;
+    display: block;
+    margin-top: 56px;
+}
+
+
+.footer_info{
+    border-top: 1px solid #D2D2D2;
+    background-color: #1B1B1B;
+    height: 80px;
+
+}
+
+.footer_info_text{
+    max-width: 289px;
+    color: #FFF;
+font-size: 13px;
+font-weight: 400;
+line-height: 190.6%; 
+margin-right: auto;
+margin-left: auto;
+margin-top: 29px;
+}
+
+@media screen and (max-width:1350px) {
+    .footer__icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .footer{
+        display: none;
+    }
+    .stay__input_box{
+        margin-bottom: 68px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer_info{
+        height: 70px;
+    }
+    .footer_info_text{
+        margin-top: 22px;
+    }
+}

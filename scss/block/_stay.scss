@@ -1,0 +1,97 @@
+.stay__title{
+    color: #222;
+font-size: 30px;
+font-weight: 600;
+line-height: 187.5%; 
+margin-bottom: 32px;
+}
+
+.stay__text{
+    max-width: 486px;
+    color: #525252;
+font-size: 16px;
+font-weight: 400;
+line-height: 187.5%;
+margin-bottom: 74px;
+}
+
+.stay__input_title{
+    color: #FFF;
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.stay__input_text{
+    max-width: 536px;
+    color: #FFF;
+font-size: 17px;
+font-weight: 400;
+}
+
+.stay__input_box{
+    border-radius: 15px;
+    background-color: #1B1B1B;
+    padding: 40px 52px 42px 56px;
+    margin-bottom: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.emai_input{
+    border: none;
+    color: #898989;
+font-size: 13px;
+font-weight: 300;
+outline: none;
+background:transparent;}
+
+.input__btn{
+    border-radius: 8px;
+background-color: #DC7000;
+padding: 8px 15px ;
+border: none;
+margin-left: 98px;
+color: #FFF;
+font-size: 13px;
+font-weight: 400;
+}
+
+.input__box{
+    background-color:#FFF;
+    padding: 6px 6px 6px 20px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:1080px) {
+    .stay__input_box{
+        flex-wrap: wrap;
+        padding: 30px 25px 18px 21px;
+    }
+
+    .stay__input_text{
+        margin-bottom: 41px;
+    }
+
+    .stay__input_title{
+        margin-bottom: 24px;
+    }
+
+    .stay__input_text{
+        margin-bottom: 43px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+
+    .input__btn{
+        margin: 0;
+    }
+
+    .input__box{
+       width: 275px;
+    }
+}

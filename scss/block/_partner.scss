@@ -1,0 +1,40 @@
+.partner{
+    background-color: #F5F5F5;
+    margin-bottom: 138px;
+    padding: 70px 247px 101px 109px;
+    margin-bottom: 138px;
+}
+
+.partner__title{
+    color: #000;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 64px;
+}
+
+.partner__box{
+    max-width: 1084px;
+    height: 111px;
+    background-repeat: no-repeat;
+    background-image: url(../img/partner1.svg), url(../../img/partner2.svg),url(../img/partner3.svg),url(../img/partner4.svg),url(../img/partner5.svg);
+    background-position: left center , 180px center, 412px center, 658px center, 878px center;
+}
+
+@media screen and (max-width:1400px) {
+    .partner{
+        padding: 70px 150px 101px 50px;
+    }
+}
+
+
+@media screen and (max-width:1260px) {
+    .partner{
+        padding: 70px 30px 101px 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .partner__title{
+        max-width: 323px;
+    }
+}
